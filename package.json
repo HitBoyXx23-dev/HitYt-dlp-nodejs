@@ -1,0 +1,22 @@
+{
+  "name": "hityt-dlp-node",
+  "version": "0.2.0",
+  "description": "Node.js CLI and library for resolving and downloading YouTube media",
+  "type": "module",
+  "bin": {
+    "hityt": "./bin/hityt.js"
+  },
+  "exports": "./src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "api": "node src/server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@audio/decode-aac": "^1.5.0",
+    "lamejs": "^1.2.1"
+  }
+}
